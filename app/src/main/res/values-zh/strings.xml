@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">饭否精选_WH</string>
+    <string name="action_settings">设置</string>
+    <string name="action_loading">正在加载该日饭否精选--></string>
+    <string name="network_notworking">请先检查下网络数据</string>
+
+    <string name="scrollawarefab">youlingme.com.fanfou.animation.ScrollAwareFABBehavior</string>
+    <string name="daily">每日精选</string>
+    <string name="weekly">每周精选</string>
+
+    <string name="app_setting_about">关于</string>
+    <string name="action_visit_fanfoudaily">项目主页</string>
+    <string name="action_visit_repo">查看 GitHub repository</string>
+    <string name="developer">开发者</string>
+    <string name="coder"> \u0040Anthonyeef</string>
+
+
+    <string name="blog_address">https://anthonyeef.github.io</string>
+    <string name="project_address">https://anthonyeef.github.io/project/android/fanfoudaily</string>
+    <string name="project_github">https://github.com/Anthonyeef/FanfouDaily</string>
+
+
+</resources>

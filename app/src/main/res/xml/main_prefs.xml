@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="@string/app_setting_about">
+        <Preference
+            android:key="fanfoudaily"
+            android:title="@string/action_visit_fanfoudaily">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="@string/project_address" />
+        </Preference>
+        <Preference
+            android:key="project_github"
+            android:title="@string/action_visit_fanfoudaily">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="@string/project_github" />
+        </Preference>
+        <Preference
+            android:key="developer"
+            android:summary="@string/coder"
+            android:title="@string/developer"></Preference>
+
+    </PreferenceCategory>
+
+</PreferenceScreen>
