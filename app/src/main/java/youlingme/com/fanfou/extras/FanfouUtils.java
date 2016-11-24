@@ -10,6 +10,7 @@ import youlingme.com.fanfou.model.Fanfou;
 import youlingme.com.fanfou.utils.UriUtils;
 import youlingme.com.fanfou.volley.Parser;
 import youlingme.com.fanfou.volley.Requestor;
+import youlingme.com.fanfou.volley.VolleySingleton;
 
 /**
  * Created by wanghan on 16/11/24.
@@ -17,7 +18,7 @@ import youlingme.com.fanfou.volley.Requestor;
 public class FanfouUtils {
 
     public static ArrayList<Fanfou> loadFanfouDailyFeeds(RequestQueue requestQueue, String date) {
-        JSONObject response = Requestor.requestJSON(requestQueue, UriUtils.getReuqestUrlHead() + date + UriUtils.getRequestUrlDailyEnd());
+        JSONObject response = Requestor.requestJSON(VolleySingleton.getInstance().getRequestQueue(), UriUtils.getReuqestUrlHead() + date + UriUtils.getRequestUrlDailyEnd());
         ArrayList<Fanfou> fanfous = Parser.parseFanfouJSON(response);
 //        ArrayList<Fanfou> fanfous = Parser.parseFanfouGSON(response);
         return fanfous;

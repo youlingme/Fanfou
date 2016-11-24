@@ -150,8 +150,8 @@ public class FragmentDaily extends Fragment {
 
         public TaskLoadFanfouDaily(String date) {
             this.date = date;
-            mVolleySingleton = VolleySingleton.getInstance();
-            mRequestQueue = mVolleySingleton.getRequestQueue();
+//            mVolleySingleton = VolleySingleton.getInstance();
+//            mRequestQueue = mVolleySingleton.getRequestQueue();
         }
 
         @Override
